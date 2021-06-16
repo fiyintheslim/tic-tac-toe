@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap');
+h3{
+    color: red;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+}
+.square:empty{
+    height: 60px;
+    width: 60px;
+    background:red;
+}
+.square{
+    height: 60px;
+    width: 60px;
+    background:rgb(168, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.App{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.tic-tac-toe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+.reset{
+    background:rgb(136, 136, 231);
+    border-radius:20px;
+    text-align: center;
+    height: 35px;
+    width: 140px;
+    box-shadow: 3px 3px 5px rgba(41, 41, 41, 0.6);
+    cursor: pointer;
+}
+.reset:active{
+    box-shadow:none;
+}
+.bottom{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
+}
